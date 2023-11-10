@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c0f0b7769.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/MALLESWARI.png" class="MALLESWARI">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Hello!</p>
+                <h1> This Is <span> Malleswari <br> Tirumala </span> </h1>
+            </div>
+        </div>
+    </div>
+<!------------------------about------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WOMEN.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Looking for a career in a progressive organization that gives me a scope to update knowledge and skills in accordance with technologies and a part of team that dynamically works towards positive
+                        growth of the organization and gain satisfaction </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievements&certifications')">Achievements & Certifications</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Developing websites</li>
+                            <li><span>Programming Launguages</span><br> C, Java, Python, SQL, CSS, HTML</li>
+                            <li><span>Java Script</span><br>Building Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements&certifications">
+                        <ul>
+                            <li><span> Python </span><br> Certificate From GreatLearning</li>
+                            <li><span> HTML </span><br>Certificate From GreatLearning</li>
+                            <li><span> Project Management Fundementals </span><br> Certificate From IBM Skill Build </li>
+                            <li><span> Data Science 101 </span><br> Certificate From IBM Skill Build </li>
+                            <li><span> AWS Cloud Partioner </span><br> Certificate From IBM Skill Build </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2022 - Current </span><br> MCA at Vignan's Lara, Vadlamudi </li>
+                            <li><span> 2019 - 2022 </span><br> Completed BSc Electronics at NRK & KSR Gupta Degree College, Tenali </li>
+                            <li><span> 2017 - 2019 </span><br> Completed Intermediate at Nehru Niketan Junior College, Tenali </li>
+                            <li><span> 2016 - 2017 </span><br> SSC at ZP High School, Pedaravur </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------Hobbies----------------------------->
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="hobbies-list">
+            <div>
+                <i class="fa-solid fa-laptop"></i> 
+                <h2>Learning Technologies</h2>
+                <p>It allows me to explore and understand the ever-evolving world of technology,
+                     develop new skills, and stay updated in a rapidly changing field</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Listening Music</h2>
+                <p>Listening to music as a hobby is a delightful and enriching experience that I,
+                     as a student, have come to cherish. It provides an escape from the demands of academia,
+                      and it allows me to explore a world of emotions, cultures, and stories through the power of sound</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book-open"></i>
+                <h2>Reading Books</h2>
+                <p> I find immense joy in reading books as a hobby. It offers an escape from
+                     the demands of academics, allowing me to explore new worlds, gain knowledge,
+                      and stimulate my imagination. It's a delightful journey that broadens7 my horizons
+                       and provides a valuable break from the routine</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------portfolio--------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects u to the talented people around the world.
+                        Download it from google paly store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app connects u to the talented people around the world.
+                        Download it from google paly store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>This app connects u to the talented people around the world.
+                        Download it from google paly store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+<!----------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="'sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> tmalleswari215@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8074292190 </p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
